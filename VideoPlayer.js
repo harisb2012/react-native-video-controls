@@ -423,8 +423,8 @@ export default class VideoPlayer extends Component {
      * isFullscreen state.
      */
     _toggleFullscreen() {
-        if (this.video.ref) {
-          this.video.ref.presentFullscreenPlayer();
+        if (this.player.ref) {
+          this.player.ref.presentFullscreenPlayer();
           return;
         }
 
